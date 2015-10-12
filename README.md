@@ -3,7 +3,7 @@
 A Page Indicator Lib is realized in a different way. Support for Android 2.2 and up.
 
 ##Demo
-![](https://github.com/H07000223/FlycoPageIndicator/blob/master/preview_FlycoBanner.gif)
+![](https://github.com/H07000223/FlycoPageIndicator/blob/master/preview_FlycoPageIndicator.gif)
 
 ####[Here is a DemoApk download](http://fir.im/7qzm)
 
