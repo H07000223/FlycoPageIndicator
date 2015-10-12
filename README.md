@@ -5,7 +5,7 @@ A Page Indicator Lib is realized in a different way. Support for Android 2.2 and
 ##Demo
 ![](https://github.com/H07000223/FlycoPageIndicator/blob/master/preview_FlycoPageIndicator.gif)
 
-####[Here is a DemoApk download](http://fir.im/7qzm)
+####[Here is a DemoApk download](http://fir.im/ubrn)
 
 ##Gradle
 
