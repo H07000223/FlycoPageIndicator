@@ -84,6 +84,7 @@ public class RoundCornerIndicaor extends View implements PageIndicator {
         }
     }
 
+    @Override
     public void setViewPager(ViewPager vp, int realCount) {
         if (isValid(vp)) {
             this.vp = vp;

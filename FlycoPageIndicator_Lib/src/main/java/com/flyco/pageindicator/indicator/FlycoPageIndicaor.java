@@ -202,6 +202,7 @@ public class FlycoPageIndicaor extends LinearLayout implements PageIndicator {
         }
     }
 
+    @Override
     public void setViewPager(ViewPager vp, int realCount) {
         this.vp = vp;
         if (isValid()) {
