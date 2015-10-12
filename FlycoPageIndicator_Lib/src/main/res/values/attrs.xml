@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundCornerIndicaor">
+        <!-- width of indicators -->
+        <attr name="rci_width" format="dimension"/>
+        <!-- height of indicators -->
+        <attr name="rci_height" format="dimension"/>
+        <!-- the spacing between the indicator. -->
+        <attr name="rci_gap" format="dimension"/>
+        <!-- cornerRadius of the indicator. -->
+        <attr name="rci_cornerRadius" format="dimension"/>
+        <!-- width of the stroke used to draw the indicators. -->
+        <attr name="rci_strokeWidth" format="dimension"/>
+        <!-- color of the indicator that represents the current page. -->
+        <attr name="rci_selectColor" format="color"/>
+        <!-- color of the indicator that represents pages. -->
+        <attr name="rci_unselectColor" format="color"/>
+        <!-- color of the stroke used to draw the indicators. -->
+        <attr name="rci_strokeColor" format="color"/>
+        <!-- Whether or not the selected indicator snaps to the indicators. -->
+        <attr name="rci_isSnap" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlycoPageIndicaor">
+        <!-- indicator width, unit dp,default 6dp -->
+        <attr name="fpi_width" format="dimension"/>
+        <!-- indicator height,unit dp,default 6dp -->
+        <attr name="fpi_height" format="dimension"/>
+        <!-- indicator space between two indicators,unit dp,default 6dp -->
+        <attr name="fpi_gap" format="dimension"/>
+        <!-- width of the stroke used to draw the indicators,default 0dp -->
+        <attr name="fpi_strokeWidth" format="dimension"/>
+        <!-- color of the stroke used to draw the indicators,default "#ffffff" -->
+        <attr name="fpi_strokeColor" format="color"/>
+        <!-- Whether or not the selected indicator snaps to the indicators,default false -->
+        <attr name="fpi_isSnap" format="boolean"/>
+        <!-- indicator select color ,default "#ffffff" -->
+        <attr name="fpi_selectColor" format="color"/>
+        <!-- indicator unselect color ,default "#88ffffff"  -->
+        <attr name="fpi_unselectColor" format="color"/>
+        <!-- indicator corner raduis ,unit dp,default 3dp -->
+        <attr name="fpi_cornerRadius" format="dimension"/>
+        <!-- indicator select drawable resource -->
+        <attr name="fpi_selectRes" format="reference"/>
+        <!-- indicator unselect drawable resource -->
+        <attr name="fpi_unselectRes" format="reference"/>
+    </declare-styleable>
+</resources>

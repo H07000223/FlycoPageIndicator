@@ -1,0 +1,102 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:banner="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.flyco.indicatorsamples.banner.SimpleImageBanner
+        android:id="@+id/banner_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        banner:bb_delay="2"
+        banner:bb_period="2"
+        banner:bb_scale="0.5625"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#383838"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="15dp">
+
+        <com.flyco.pageindicator.indicator.RoundCornerIndicaor
+            android:id="@+id/indicator_circle"
+            xmlns:rci="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            rci:rci_cornerRadius="5dp"
+            rci:rci_gap="12dp"
+            rci:rci_height="10dp"
+            rci:rci_width="10dp"/>
+
+        <com.flyco.pageindicator.indicator.RoundCornerIndicaor
+            android:id="@+id/indicator_square"
+            xmlns:rci="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            rci:rci_cornerRadius="0dp"
+            rci:rci_gap="12dp"
+            rci:rci_height="10dp"
+            rci:rci_width="10dp"/>
+
+        <com.flyco.pageindicator.indicator.RoundCornerIndicaor
+            android:id="@+id/indicator_round_rectangle"
+            xmlns:rci="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            rci:rci_cornerRadius="2dp"
+            rci:rci_gap="12dp"
+            rci:rci_height="4dp"
+            rci:rci_width="15dp"/>
+
+        <com.flyco.pageindicator.indicator.RoundCornerIndicaor
+            android:id="@+id/indicator_circle_stroke"
+            xmlns:rci="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            rci:rci_cornerRadius="5dp"
+            rci:rci_gap="12dp"
+            rci:rci_height="10dp"
+            rci:rci_selectColor="#ffffff"
+            rci:rci_strokeColor="#ffffff"
+            rci:rci_strokeWidth="1dp"
+            rci:rci_unselectColor="#00000000"
+            rci:rci_width="10dp"/>
+
+        <com.flyco.pageindicator.indicator.RoundCornerIndicaor
+            android:id="@+id/indicator_square_stroke"
+            xmlns:rci="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            rci:rci_cornerRadius="0dp"
+            rci:rci_gap="12dp"
+            rci:rci_height="10dp"
+            rci:rci_selectColor="#ffffff"
+            rci:rci_strokeColor="#ffffff"
+            rci:rci_strokeWidth="1dp"
+            rci:rci_unselectColor="#00000000"
+            rci:rci_width="10dp"/>
+
+        <com.flyco.pageindicator.indicator.RoundCornerIndicaor
+            android:id="@+id/indicator_round_rectangle_stroke"
+            xmlns:rci="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            rci:rci_cornerRadius="2dp"
+            rci:rci_gap="12dp"
+            rci:rci_height="4dp"
+            rci:rci_selectColor="#ffffff"
+            rci:rci_strokeColor="#ffffff"
+            rci:rci_strokeWidth="1dp"
+            rci:rci_unselectColor="#00000000"
+            rci:rci_width="15dp"/>
+    </LinearLayout>
+</LinearLayout>
