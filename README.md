@@ -1,13 +1,13 @@
-#FlycoPageIndicator
+# FlycoPageIndicator
 
 A Page Indicator Lib is realized in a different way. Support for Android 2.2 and up.
 
-##Demo
+## Demo
 ![](https://github.com/H07000223/FlycoPageIndicator/blob/master/preview_FlycoPageIndicator.gif)
 
-####[Here is a DemoApk download](http://fir.im/ubrn)
+#### [Here is a DemoApk download](http://fir.im/ubrn)
 
-##Gradle
+## Gradle
 
 ```groovy
 dependencies{
@@ -17,7 +17,7 @@ dependencies{
 }
 ```
 
-###FlycoPageIndicaor Attributes
+### FlycoPageIndicaor Attributes
 
 |name|format|description|
 |:---:|:---:|:---:|
@@ -34,5 +34,5 @@ dependencies{
 | fpi_unselectRes | reference | indicator unselect drawable resource
 
 
-##Thanks
+## Thanks
 *   [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids)
